@@ -3,10 +3,10 @@ import me from "../../images/me.jpg";
 
 export const aboutEN={
     photo: me,
-    greetings:"Hello!,",
+    greetings:"Welcome!,",
     description:"My name is Oscar, I am a software engineer  and I have a master´s degree " +
                 "in bioinformatics(in what?), the last three years I have worked as a professor " +
-                "in a university in Mexico city, even though, I have experience within the software " +
+                "in a university in Mexico City, even though, I have experience within the software " +
                 "industry as well. I am passionate about studying and learning at least the basis of" +
                 " new technologies, although recently I am interested in React and Java. " +
                 "Another thing which I love is to share the much or little knowledge and experience that I have," +

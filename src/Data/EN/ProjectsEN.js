@@ -72,7 +72,7 @@ export const projectsEN =[
         img:site,
         description:"A template for a personal website",
         url:"https://themet-cfff7.web.app/",
-        code:"https://github.com/OscarScrooge/art_gallery",
+        code:"https://github.com/OscarScrooge/personal-web-template",
         urlAlias : "Template",
         codeAlias: "Template code",
         techsArray : ["React","HTML","redux","react-router"]
