@@ -71,7 +71,7 @@ export const projectsEN =[
         title:"Personal website template",
         img:site,
         description:"A template for a personal website",
-        url:"https://themet-cfff7.web.app/",
+        url:"oscar-scrooge.web.app",
         code:"https://github.com/OscarScrooge/personal-web-template",
         urlAlias : "Template",
         codeAlias: "Template code",

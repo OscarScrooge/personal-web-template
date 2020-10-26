@@ -71,7 +71,7 @@ export const projectsSPA =[
         title:"Sitio web personal",
         img:site,
         description:"Template de un sitio web personal",
-        url:"https://themet-cfff7.web.app/",
+        url:"oscar-scrooge.web.app",
         code:"https://github.com/OscarScrooge/personal-web-template",
         urlAlias : "Template",
         codeAlias: "Código template",

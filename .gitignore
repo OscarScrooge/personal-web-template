@@ -2,7 +2,10 @@
 
 /src/files/resume.rar
 /public/favicon.ico
-/src/images
+/src/images/
+.firebaserc
+.firebase
+firebase.json
 
 # dependencies
 /node_modules
