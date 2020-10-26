@@ -6,8 +6,12 @@
     justify-content: center;
     position: sticky;
     top: 0;
-}
 
+}
+.nav-options {
+    display: flex;
+    flex-flow: row wrap;
+}
 .nav-option{
     color: whitesmoke;
     font-family: sans-serif;
@@ -30,11 +34,16 @@
     padding: 5px;
     margin-left: 5px;
     transition: 0.5s;
+
 }
 .nav-languages{
+
     position: absolute;
     right: 0;
     margin-right: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 .nav-option-language:hover{
@@ -50,3 +59,9 @@
     color: darkgray;
 }
 
+@media screen and (max-width: 768px) {
+    .nav-languages{
+        position: unset;margin: 0;
+
+    }
+}

@@ -29,6 +29,7 @@ function Nav(props) {
 
     return (
        <nav className="nav">
+           <div className="nav-options">
            <Link to="/proyects"  onClick={event => handleActivation("1")}>
                <span
 
@@ -45,6 +46,7 @@ function Nav(props) {
                <span
                      className={`nav-option  ${activate === "3"? "active": ""}`}>{options.mainOptions[2]}</span>
            </Link>
+           </div>
            <div className="nav-languages">
                <span className={`nav-option-language  ${activateLang==="EN"?"active":""}`} onClick={event => handleLanguage("EN")}>{options.languages[0]}</span>
                <span className={`nav-option-language  ${activateLang==="SP"?"active":""}`} onClick={event => handleLanguage("SP")}>{options.languages[1]}</span>
