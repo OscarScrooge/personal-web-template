@@ -1,15 +1,15 @@
 import './App.css';
-import Nav from "./components/Nav";
 import {BrowserRouter as Router, Route, Switch,Redirect} from 'react-router-dom';
 import ContainerAbout from "./containers/ContainerAbout";
 import ContainerResume from "./containers/ContainerResume";
 import ContainerProyects from "./containers/ContainerProjects";
+import ContainerNav from "./containers/ContainerNav";
 
 function App() {
   return (
       <Router>
             <div className="App">
-                <Nav/>
+                <ContainerNav/>
                 <Switch>
                     <Route path="/proyects">
                         <ContainerProyects/>
