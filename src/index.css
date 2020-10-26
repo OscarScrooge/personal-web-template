@@ -1,4 +1,17 @@
+*{
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
 body {
+  /*background-color: darkgray;*/
+  background-image: url("./images/back.jpg");
+  backdrop-filter: brightness(100%);
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

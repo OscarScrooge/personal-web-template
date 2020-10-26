@@ -1,0 +1,6 @@
+.projects{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-top: 30px;
+}

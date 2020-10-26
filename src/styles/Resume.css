@@ -1,0 +1,90 @@
+.resume-container{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+
+}
+.resume{
+    width: 900px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+
+.resume-section{
+    width: 100%;
+    text-align: center;
+    padding: 2px;
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+
+.resume-mail{
+    display: flex;
+    color: white;
+}
+
+.resume-mail> *{
+    padding-right: 10px;
+}
+
+.resume-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.resume-download{
+    display: flex;
+    color: whitesmoke;
+}
+.resume-download:hover{
+    cursor: pointer;
+}
+
+.resume-experience{
+    width: 100%;
+}
+.resume-experience-title{
+    padding: 15px;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.resume-experience-title h4:nth-child(2){
+    padding-right: 50px;
+}
+
+.resume-experience-job{
+
+    border-bottom: 0.5px solid lightgray;
+}
+
+
+.resume-list{
+    list-style-type: disc;
+    color: white;
+    text-align: justify;
+    padding: 15px;
+    padding-left: 20px;
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 22px;
+}
+
+
+.resume-tools{
+    margin-top: 30px;
+}
+
+
